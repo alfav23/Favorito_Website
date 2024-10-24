@@ -1,0 +1,87 @@
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    margin: 5rem 5rem 5rem 5rem
+}
+
+h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(224, 162, 139);
+}
+
+img {
+    filter: drop-shadow(-1rem 1rem 0.75rem rgb(0, 0, 0, .5));
+}
+
+/* nav {
+    display: none;
+}
+
+nav:hover{
+    display: block;
+} */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    filter: drop-shadow(0 0 0);
+}
+
+.card:hover {
+    filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.25));
+}
+
+#bio-card {
+    border-radius: 2rem 2rem 0rem 2rem;
+    margin: 2rem;
+    border-color: rgb(211, 126, 95);
+    border-width: .125rem;
+    display: block;
+}
+
+#bio-img {
+    width: 200px;
+    border-radius: 2rem 2rem 0rem 2rem;
+    margin-left: 22rem;
+    margin-top: 1rem;
+}
+
+#project-img-1 {
+    width: 300px;
+    border-radius: 2rem 2rem 2rem 0rem;
+    margin-left: 1rem;
+    filter: drop-shadow(1rem 1rem 0.75rem rgb(0, 0, 0, .5));
+}
+
+#project-img-2 {
+    border-radius: 2rem 2rem 0rem 2rem;
+    padding: 1rem;
+}
+
+#about-header {
+    color: rgb(224, 162, 139);
+}
+
+#blog-header {
+    text-align: center;
+    color: rgb(224, 162, 139);
+}
+
+#btn-socials {
+    color: rgb(255, 255, 255);
+    background-color: rgb(224, 162, 139);
+    margin-top: 1rem;
+}
+
+#btn-socials:hover{
+    color: whitesmoke;
+    background-color: rgb(211, 126, 95);
+}
+
+#quote {
+    font-style: italic;
+    text-align: end;
+}
